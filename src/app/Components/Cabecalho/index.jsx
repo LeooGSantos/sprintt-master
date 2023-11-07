@@ -1,34 +1,42 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Cabecalho() {
   return (
     <header className="cabecalho">
-      <h2>MEUS PRODUTOS</h2>
       <nav>
         <ul>
           <li>
-            <Link href="/bike">
+          <Link href="/app/page.jsx">
+              <button>Principal</button>
+          </Link>
+
+          </li>
+          <li>
+            <Link href="/routes/Bike">
               <button>Bike</button>
             </Link>
           </li>
           <li>
-            <Link href="/fazerseguro">
+            <Link href="/routes/FazerSeguro">
               <button>Fazer Seguro</button>
             </Link>
           </li>
           <li>
-            <Link href="/planosseguro">
+            <Link href="/routes/PlanosSeguro">
               <button>Planos de Seguro</button>
             </Link>
           </li>
           <li>
-            <Link href="/principal">
-              <button>Principal</button>
+            <Link href="/routes/RMs">
+              <button>RMs</button>
             </Link>
           </li>
-          <li>
-            <Link href="/rms">
-              <button>RMs</button>
+          <li className="login-register">
+            <Link href="/app/login">
+              <button>Login</button>
+            </Link>
+            <Link href="/app/registro">
+              <button>Registrar-se</button>
             </Link>
           </li>
         </ul>

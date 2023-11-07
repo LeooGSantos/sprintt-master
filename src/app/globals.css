@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  .cabecalho {
+    @apply bg-porto-seguro-blue text-white font-bold px-4 text-center text-4xl;
+
+    & ul {
+      @apply flex flex-row text-lg border border-t-porto-seguro-red border-l-0 border-r-0 border-b-0;
+
+      & li {
+        @apply mx-auto;
+
+        & a {
+          @apply block hover:bg-porto-seguro-amber py-3 px-3 rounded-md transition duration-300 ease-out;
+        }
+      }
+
+      & .login-register {
+        @apply flex;
+        @apply mx-4;
+        @apply p-4;
+        @apply rounded-full;
+        @apply border-white;
+      }
+    }
+  }
+
+  .eletro-view {
+    @apply mb-5;
+
+    & h1 {
+      @apply text-4xl text-center font-bold text-porto-seguro-blue my-4;
+    }
+
+    & ul {
+      @apply flex flex-row flex-wrap justify-center;
+
+      & li {
+        @apply mx-4 my-4;
+
+        & figure {
+          @apply w-64 h-64;
+
+          & img {
+            @apply w-full h-full object-cover;
+          }
+        }
+
+        & a {
+          @apply block hover-bg-porto-seguro-amber rounded-md transition duration-300 ease-out;
+        }
+      }
+    }
+  }
+
+  .rodape {
+    @apply static w-full bottom-0 bg-porto-seguro-blue text-white font-bold py-2 px-4 text-center text-lg;
+
+    & a {
+      @apply block hover-bg-porto-seguro-amber py-1 px-3 rounded-md transition duration-300 ease-out;
+    }
+  }
+}

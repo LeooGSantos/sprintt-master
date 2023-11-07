@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'porto-seguro-blue': '#0077b6', // Substitua o código de cor pelo desejado
+        'porto-seguro-red': '#ef233c',
+        'porto-seguro-amber': '#ffbf00',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
