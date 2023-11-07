@@ -1,13 +1,21 @@
-import Link from "next/link";
-
-export default function Tenis() {
+export default function RMs() {
   return (
-    <div>
-        <h1>TÊNIS</h1>
-        <div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto dignissimos perspiciatis, quaerat eveniet id sequi voluptatum odio rem? Laboriosam, labore officiis itaque suscipit cum soluta exercitationem architecto provident. Reiciendis, neque?</p>
-            <p><Link href="/">Voltar...</Link></p>
-        </div>
+    <div className="rm-page">
+      <h2>RMs</h2>
+      <ul>
+        <li>
+          <strong>99533</strong> - Allesson Augusto Silva Perru Oliveira
+        </li>
+        <li>
+          <strong>552178</strong> - Cauã Mongs de Borba
+        </li>
+        <li>
+          <strong>551456</strong> - Guilherme Naoki Hirayama
+        </li>
+        <li>
+          <strong>98912</strong> - Leonardo Gonçalves da Costa Santos
+        </li>
+      </ul>
     </div>
-  )
+  );
 }
