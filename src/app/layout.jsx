@@ -3,7 +3,6 @@ import './globals.css'
 import Cabecalho from "./Components/Cabecalho/index";
 
 
-
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -15,9 +14,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body className="reset">
-      <Cabecalho />
+        <Cabecalho />
           {children}
-        
       </body>
     </html>
   );
