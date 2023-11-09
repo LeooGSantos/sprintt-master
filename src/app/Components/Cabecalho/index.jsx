@@ -6,28 +6,28 @@ export default function Cabecalho() {
       <nav>
         <ul>
           <li>
-          <Link href="/app/page.jsx">
+          <Link href="page.jsx">
               <button>Principal</button>
           </Link>
 
           </li>
           <li>
-            <Link href="/routes/Bike">
+            <Link href="/Bike">
               <button>Bike</button>
             </Link>
           </li>
           <li>
-            <Link href="/routes/FazerSeguro">
+            <Link href="/FazerSeguro">
               <button>Fazer Seguro</button>
             </Link>
           </li>
           <li>
-            <Link href="/routes/PlanosSeguro">
+          <Link href="/PlanosSeguro">
               <button>Planos de Seguro</button>
             </Link>
           </li>
           <li>
-            <Link href="/routes/RMs">
+            <Link href="/RMs">
               <button>RMs</button>
             </Link>
           </li>
