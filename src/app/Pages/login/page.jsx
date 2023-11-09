@@ -1,19 +1,18 @@
-import Link from 'next/link';
-
 export default function Login() {
   return (
-    <div className="bike-page">
-      <h1>Fazer Seguro</h1>
-      <p>Faça seu seguro agora, de forma dinâmica e rápida!</p>
-      <button>
-        <Link href="/Pages/fazer-seguro">Fazer Seguro</Link>
-      </button>
-
-      <h2>Ver Seus Seguros de Bike</h2>
-      <p>Veja seus seguros aqui!</p>
-      <button>
-        <Link href="/Pages/planos-seguro">Planos Seguro</Link>
-      </button>
+    <div>
+      <h1>Login</h1>
+      <form>
+        <div className="form-group">
+          <label htmlFor="login">E-mail ou Nome de Usuário:</label>
+          <input type="text" id="login" name="login" required />
+        </div>
+        <div className="form-group">
+          <label htmlFor="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" required />
+        </div>
+        <button type="submit">Entrar</button>
+      </form>
     </div>
   );
 }

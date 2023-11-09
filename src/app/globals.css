@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .reset {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-}
-
 @layer components {
   .cabecalho {
     @apply bg-porto-seguro-blue text-white font-bold px-4 text-center text-4xl;
@@ -58,6 +50,41 @@
 
         & a {
           @apply block hover-bg-porto-seguro-amber rounded-md transition duration-300 ease-out;
+        }
+      }
+    }
+  }
+
+  .rm-page {
+    @apply text-center;
+
+    & h2 {
+      @apply text-4xl text-center font-bold text-porto-seguro-blue my-4;
+    }
+
+    & ul {
+      @apply flex flex-row flex-wrap justify-center;
+
+      & li {
+        @apply mx-4 my-4 text-center;
+
+        & strong {
+          display: inline-block;
+          width: 150px; /* Defina o tamanho desejado */
+          height: 150px; /* Defina o tamanho desejado */
+          background: #ffbf00; /* Cor de fundo de hover-bg-porto-seguro-amber */
+          border-radius: 50%; /* Torna-o circular */
+          overflow: hidden;
+          transition: transform 0.3s ease-out;
+
+          & span {
+            display: block;
+            padding: 10px;
+          }
+
+          &:hover {
+            transform: scale(1.1);
+          }
         }
       }
     }
