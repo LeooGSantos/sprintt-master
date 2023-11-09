@@ -20,10 +20,10 @@ export default function Cabecalho() {
           <Link href="/Pages/rms">RMs</Link>
         </li>
         <li className="login-register">
-            <Link href="/app/login">
+            <Link href="/Pages/login">
               <button>Login</button>
             </Link>
-            <Link href="/app/registro">
+            <Link href="/Pages/registro">
               <button>Registrar-se</button>
             </Link>
           </li>

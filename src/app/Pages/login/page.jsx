@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Bike() {
+export default function Login() {
   return (
     <div className="bike-page">
       <h1>Fazer Seguro</h1>
