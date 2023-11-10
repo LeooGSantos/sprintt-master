@@ -2,12 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
 @layer components {
   .cabecalho {
     @apply bg-porto-seguro-blue text-white font-bold px-4 text-center text-4xl;
 
     & ul {
-      @apply flex flex-row text-lg border border-t-porto-seguro-red border-l-0 border-r-0 border-b-0;
+      @apply flex flex-row text-lg border border-l-0 border-r-0 border-b-0;
 
       & li {
         @apply mx-auto;
@@ -27,34 +35,6 @@
     }
   }
 
-  .eletro-view {
-    @apply mb-5;
-
-    & h1 {
-      @apply text-4xl text-center font-bold text-porto-seguro-blue my-4;
-    }
-
-    & ul {
-      @apply flex flex-row flex-wrap justify-center;
-
-      & li {
-        @apply mx-4 my-4;
-
-        & figure {
-          @apply w-64 h-64;
-
-          & img {
-            @apply w-full h-full object-cover;
-          }
-        }
-
-        & a {
-          @apply block hover-bg-porto-seguro-amber rounded-md transition duration-300 ease-out;
-        }
-      }
-    }
-  }
-
   .rm-page {
     @apply text-center;
 
@@ -70,10 +50,10 @@
 
         & strong {
           display: inline-block;
-          width: 150px; /* Defina o tamanho desejado */
-          height: 150px; /* Defina o tamanho desejado */
-          background: #ffbf00; /* Cor de fundo de hover-bg-porto-seguro-amber */
-          border-radius: 50%; /* Torna-o circular */
+          width: 150px;
+          height: 150px;
+          background: #e6e3e3;
+          border-radius: 5%;
           overflow: hidden;
           transition: transform 0.3s ease-out;
 
@@ -87,6 +67,34 @@
           }
         }
       }
+    }
+  }
+
+  .planos-seguro-page {
+    @apply flex justify-around mt-10;
+  }
+
+  .quadrado {
+    @apply relative p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex flex-col items-center space-y-2 hover:scale-105 transform transition duration-300 ease-in-out;
+    
+    & .imagem-plano {
+      @apply w-full h-40 object-cover mb-4 rounded-md;
+    }
+
+    & h2 {
+      @apply text-lg font-bold mb-2;
+    }
+
+    & p {
+      @apply text-center text-sm text-gray-600 mb-4;
+    }
+
+    & button {
+      @apply absolute bottom-1 bg-porto-seguro-amber hover:bg-porto-seguro-amber text-white py-2 px-6 rounded-md transition duration-300 ease-out;
+    }
+
+    &:hover {
+      @apply shadow-lg;
     }
   }
 
