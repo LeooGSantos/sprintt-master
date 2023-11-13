@@ -4,7 +4,7 @@
 
 @layer components {
   .cabecalho {
-    @apply bg-porto-seguro-blue text-white font-bold px-4 text-center text-4xl;
+    @apply bg-porto-seguro-blue text-white font-bold px-2 text-center text-4xl;
 
     & ul {
       @apply flex flex-row text-lg border border-l-0 border-r-0 border-b-0;
@@ -13,7 +13,7 @@
         @apply mx-auto;
 
         & a {
-          @apply block hover:bg-porto-seguro-amber py-3 px-3 rounded-md transition duration-300 ease-out;
+          @apply block hover:bg-porto-seguro-amber py-1 px-1 rounded-md transition duration-300 ease-out;
         }
       }
 

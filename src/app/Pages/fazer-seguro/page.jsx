@@ -18,8 +18,6 @@ export default function FazerSeguro() {
           <label htmlFor="chassi">Número do Chassi (Número de série)</label>
           <input type="text" id="chassi" />
 
-          <button type="button">Confirmar Número do Chassi</button>
-
           <label htmlFor="tempoPossui">Tempo que Possui a Bicicleta</label>
           <input type="text" id="tempoPossui" />
 
