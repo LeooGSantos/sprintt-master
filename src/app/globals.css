@@ -76,7 +76,7 @@
 
   .quadrado {
     @apply relative p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex flex-col items-center space-y-2 hover:scale-105 transform transition duration-300 ease-in-out;
-    
+
     & .imagem-plano {
       @apply w-full h-40 object-cover mb-4 rounded-md;
     }
@@ -103,6 +103,40 @@
 
     & a {
       @apply block hover-bg-porto-seguro-amber py-1 px-3 rounded-md transition duration-300 ease-out;
+    }
+  }
+
+  .login-container {
+    @apply flex flex-col items-center justify-center h-screen;
+
+    .Tituloo {
+      @apply text-center;
+
+      & h2 {
+        @apply text-4xl font-bold text-porto-seguro-blue;
+        @apply mb-4;
+      }
+    }
+
+    .login-form {
+      @apply mt-8;
+      @apply w-full max-w-md;
+
+      & label {
+        @apply block text-gray-700 text-sm font-bold mb-2;
+      }
+
+      & input {
+        @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring focus:border-blue-300;
+      }
+
+      & button {
+        @apply bg-porto-seguro-amber hover:bg-porto-seguro-amber text-white font-bold py-2 px-4 rounded-full mt-4 transition duration-300 ease-out;
+      }
+
+      & p {
+        @apply mt-4 text-sm text-gray-600;
+      }
     }
   }
 }

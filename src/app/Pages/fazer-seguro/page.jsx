@@ -4,11 +4,10 @@ import React from 'react';
 export default function FazerSeguro() {
   return (
     <div className="fazer-seguro-page">
-      <div className="lado-esquerdo">
+      <div className="Titulo">
         <h2>Seguro Bike da Porto</h2>
-        <p>Seguro</p>
       </div>
-      <div className="lado-direito">
+      <div className="Form">
         <form>
           <label htmlFor="marca">Marca</label>
           <input type="text" id="marca" />
