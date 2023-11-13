@@ -4,9 +4,6 @@ import React from 'react';
 export default function FazerSeguro() {
   return (
     <div className="fazer-seguro-page">
-      <div className="Titulo mb-4 text-center">
-        <h2>Seguro Bike da Porto</h2>
-      </div>
       <div className="Form">
         <form>
           <label htmlFor="marca">Marca</label>

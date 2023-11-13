@@ -2,7 +2,7 @@ export default function Registro() {
   return (
     <div className="registro-container">
       <div className="Tituloo">
-        <h2>Faça seu Faça seu Registro</h2>
+        <h2>Faça seu Registro</h2>
       </div>
       <form>
         <div className="form-group">
