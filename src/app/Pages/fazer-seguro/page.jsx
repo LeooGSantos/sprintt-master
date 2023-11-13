@@ -4,7 +4,7 @@ import React from 'react';
 export default function FazerSeguro() {
   return (
     <div className="fazer-seguro-page">
-      <div className="Titulo">
+      <div className="Titulo mb-4 text-center">
         <h2>Seguro Bike da Porto</h2>
       </div>
       <div className="Form">
@@ -31,6 +31,13 @@ export default function FazerSeguro() {
 
           <label htmlFor="uso">Uso da Bike</label>
           <input type="text" id="uso" />
+
+          <label htmlFor="tipoPedal">Tipo de Pedal</label>
+          <select id="tipoPedal">
+            <option value="pedalEssencial">Pedal Essencial</option>
+            <option value="pedalLeve">Pedal Leve</option>
+            <option value="pedalElite">Pedal Elite</option>
+          </select>
 
           <p>Ao clicar em "Continuar" você confirma os dados.</p>
 
