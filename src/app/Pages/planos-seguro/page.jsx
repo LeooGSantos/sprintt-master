@@ -3,7 +3,6 @@ import Link from 'next/link';
 export default function PlanosSeguro() {
   return (
     <div className="planos-seguro-page">
-      <h2>Planos Seguro</h2>
       <div className="quadrado">  
         <h2>Pedal Essencial</h2>
         <img src="/img/2p.jpg" alt="Imagem1" className="imagem-plano" />
