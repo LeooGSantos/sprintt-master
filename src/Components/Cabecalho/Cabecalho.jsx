@@ -8,9 +8,6 @@ export default function Cabecalho() {
           <Link href="/">HOME</Link>
         </li>
         <li>
-          <Link href="/Pages/bike">Bike</Link>
-        </li>
-        <li>
           <Link href="/Pages/fazer-seguro">Fazer Seguro</Link>
         </li>
         <li>
