@@ -26,7 +26,7 @@ export default function PlanosSeguro() {
         <img src="/img/3p.jpg" alt="Imagem3" className="imagem-plano" />
         <p>Conte com diversos serviços capazes de elevar suas aventuras para o próximo nível.</p>
         <button>
-          <Link href="/Pages/fazer-seguro">Faça já!</Link>
+          <Link href="/Pages/fazer-seguro">Faça já !</Link>
         </button>
       </div>
     </div>
