@@ -28,7 +28,11 @@ export default function FazerSeguro() {
           <input type="text" id="uso" />
 
           <label htmlFor="tipoPedal">Tipo de Pedal</label>
-          
+          <select id="tipoPedal">
+            <option value="pedalEssencial">Pedal Essencial</option>
+            <option value="pedalLeve">Pedal Leve</option>
+            <option value="pedalElite">Pedal Elite</option>
+          </select>
 
           <p>Ao clicar em "Continuar" você confirma os dados.</p>
 
