@@ -36,7 +36,7 @@ export default function FazerSeguro() {
 
           <p>Ao clicar em "Continuar" você confirma os dados.</p>
 
-          <button type="submit">Continuar</button>
+          <button type="submit">- Continuar -</button>
         </form>
       </div>
     </div>
