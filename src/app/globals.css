@@ -90,14 +90,6 @@
     }
   }
 
-  .rodape {
-    @apply static w-full bottom-0 bg-porto-seguro-blue text-white font-bold py-2 px-4 text-center text-lg;
-
-    & a {
-      @apply block hover-bg-porto-seguro-amber py-1 px-3 rounded-md transition duration-300 ease-out;
-    }
-  }
-
   .login-container {
     @apply flex flex-col items-center justify-center h-screen;
 
@@ -115,6 +107,14 @@
 
       & label {
         @apply block text-gray-700 text-sm font-bold mb-2;
+      }
+
+      .titulof {
+        @apply text-center;
+  
+        & h2 {
+          @apply text-4xl font-bold text-porto-seguro-blue mb-4;
+        }
       }
 
       & input {
