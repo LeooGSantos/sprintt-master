@@ -16,7 +16,7 @@ export default function RegistrationForm() {
   const handlePasswordChange = (e) => {
     setPassword(e.target.value);
   };
-
+ 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Aqui você pode adicionar a lógica para criar uma conta com o nome, email e senha fornecidos.
