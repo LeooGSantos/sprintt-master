@@ -11,7 +11,7 @@ export default function LoginForm() {
   const handlePasswordChange = (e) => {
     setPassword(e.target.value);
   };
-
+ 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Aqui você pode adicionar a lógica para autenticar o usuário com o email e senha fornecidos.
