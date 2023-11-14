@@ -21,7 +21,7 @@ export default function Registro() {
           <label htmlFor="confirmarSenha">Confirmar Senha: </label>
           <input type="password" id="confirmarSenha" name="confirmarSenha" required />
         </div>
-        <button type="submit">Registrar</button>
+        <button type="submit">Registrar!</button>
       </form>
     </div>
   );

@@ -6,7 +6,7 @@ export default function PlanosSeguro() {
       <div className="quadrado">  
         <h2>Pedal Essencial</h2>
         <img src="/img/2p.jpg" alt="Imagem1" className="imagem-plano" />
-        <p>O plano gratuito* para você experimentar um dos serviços essenciais oferecidos, de acordo com as suas necessidades.</p>
+        <p>O plano gratuito* para você experimentar um dos serviços essenciais oferecidos.</p>
         <button>
           <Link href="/Pages/fazer-seguro">Faça já!</Link>
         </button>
