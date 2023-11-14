@@ -27,6 +27,12 @@ export default function RMs() {
             RM98912 - Leonardo Gonçalves da Costa Santos
           </strong>
         </li>
+        <li>
+          <strong>
+            <img src="caminho/para/sua/imagem4.jpg" alt="Imagem4" className="imagem-rm" />
+            RM551377 - ERIK TEIXEIRA BARBOSA
+          </strong>
+        </li>
       </ul>
     </div>
   );
