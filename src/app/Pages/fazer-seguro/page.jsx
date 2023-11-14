@@ -12,7 +12,7 @@ export default function FazerSeguro() {
           <label htmlFor="modelo">Modelo</label>
           <input type="text" id="modelo" />
 
-          <label htmlFor="preco">Preço</label>
+          <label htmlFor="preco">Preço</label> 
           <input type="text" id="preco" />
 
           <label htmlFor="chassi">Número do Chassi (Número de série)</label>
