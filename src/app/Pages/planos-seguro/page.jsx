@@ -15,7 +15,7 @@ export default function PlanosSeguro() {
       <div className="quadrado">
         <h2>Pedal Leve</h2>
         <img src="/img/4p.jpg" alt="Imagem2" className="imagem-plano" />
-        <p>Você gosta de pedalar e está buscando um plano de serviços intermediário? O Pedal leve da Porto é para você.</p>
+        <p>Você gosta de pedalar e está buscando um plano de serviços intermediário? O Pedal leve da Porto é para você!</p>
         <button>
           <Link href="/Pages/fazer-seguro">Faça já</Link>
         </button>
