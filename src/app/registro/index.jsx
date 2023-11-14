@@ -4,7 +4,7 @@ export default function RegistrationForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
+ 
   const handleNameChange = (e) => {
     setName(e.target.value);
   };
