@@ -14,6 +14,14 @@ export default function Registro() {
           <input type="email" id="email" name="email" required />
         </div>
         <div className="form-group">
+          <label htmlFor="numero">Numero de Telefone:</label>
+          <input type="text" id="numero" name="numero" required />
+        </div>
+        <div className="form-group">
+          <label htmlFor="end">Endereço:</label>
+          <input type="text" id="end" name="end" required />
+        </div>
+        <div className="form-group">
           <label htmlFor="senha">Senha:</label>
           <input type="password" id="senha" name="senha" required />
         </div>
