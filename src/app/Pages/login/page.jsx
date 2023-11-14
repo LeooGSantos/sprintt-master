@@ -10,7 +10,7 @@ export default function Login() {
       <form className="login-form">
         <div className="form-group">
           <label htmlFor="login">E-mail ou Nome de Usuário:</label>
-          <input type="text" id="login" name="login" required />
+          <input type="text" id="login" name="login" required /> 
         </div>
         <div className="form-group">
           <label htmlFor="senha">Senha:</label>
