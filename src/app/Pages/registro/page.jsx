@@ -2,21 +2,18 @@ export default function Registro() {
   return (
     <div className="registro-container">
       <div className="Tituloo">
-        <h2>Faça seu Registro!</h2>
+        <h2>Faça seu Registro</h2>
       </div>
       <form>
         <div className="form-group">
-          <label htmlFor="nome">Nome: </label>
+          <label htmlFor="nome">Nome:</label>
           <input type="text" id="nome" name="nome" required />
         </div>
         <div className="form-group">
-          <label htmlFor="email">E-mail: </label>
+          <label htmlFor="email">E-mail:</label>
           <input type="email" id="email" name="email" required />
         </div>
         <div className="form-group">
-<<<<<<< HEAD
-          <label htmlFor="senha">Senha: </label>
-=======
           <label htmlFor="numero">Numero de Telefone:</label>
           <input type="text" id="numero" name="numero" required />
         </div>
@@ -26,14 +23,13 @@ export default function Registro() {
         </div>
         <div className="form-group">
           <label htmlFor="senha">Senha:</label>
->>>>>>> origin/rm98912
           <input type="password" id="senha" name="senha" required />
         </div>
         <div className="form-group">
-          <label htmlFor="confirmarSenha">Confirmar Senha: </label>
+          <label htmlFor="confirmarSenha">Confirmar Senha:</label>
           <input type="password" id="confirmarSenha" name="confirmarSenha" required />
         </div>
-        <button type="submit">Registrar!</button>
+        <button type="submit">Registrar</button>
       </form>
     </div>
   );
